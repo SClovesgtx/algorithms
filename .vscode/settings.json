@@ -44,13 +44,7 @@
   "python.linting.pylintArgs": [
     "--disable=C0111,C0115,C0116, E0213"
   ],
-  "python.linting.pylintPath": "${workspaceFolder}/src",
   "python.terminal.activateEnvInCurrentTerminal": true,
-  // "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.env.linux": {
-    "PYTHONPATH": "${workspaceFolder}/src"
-  },
-  "python.linting.cwd": "${workspaceFolder}/src",
   "python.testing.unittestEnabled": false,
 }
